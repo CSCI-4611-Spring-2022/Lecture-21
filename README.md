@@ -24,6 +24,10 @@ npm run start
 
 The build system should launch your program in a web browser automatically.  If not, you can run it by pointing your browser at `http://localhost:8080`.
 
+## Acknowledgments
+
+The cracked asphalt image was downloaded from [wild textures](https://www.wildtextures.com/free-textures/seamless-cracking-asphalt-texture/) and is free for commercial or personal use.
+
 ## License
 
 Material for [CSCI 4611 Spring 2022](https://canvas.umn.edu/courses/290928/assignments/syllabus) by [Evan Suma Rosenberg](https://illusioneering.umn.edu/) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
