@@ -64,10 +64,11 @@ export class ShadingApp extends gfx.GraphicsApp
         lightSphereMaterial.color.set(1, 1, 0);
         lightSphere.material = lightSphereMaterial;
 
-        this.gouradMaterial.ambientColor.set(1, 0.4, 0.4);
-        this.gouradMaterial.diffuseColor.set(1, 0.4, 0.4);
+        this.gouradMaterial.ambientColor.set(1, 1, 1);
+        this.gouradMaterial.diffuseColor.set(1, 1, 1);
         this.gouradMaterial.specularColor.set(1, 1, 1);
         this.gouradMaterial.shininess = 50;
+        this.gouradMaterial.texture = new gfx.Texture('./assets/cracked-asphalt.jpg');
 
         this.unlitMaterial.color.set(1, 0.4, 0.4);
 

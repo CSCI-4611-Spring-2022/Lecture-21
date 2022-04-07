@@ -30,6 +30,7 @@ in vec3 normal;
 in vec4 color;
 
 out vec4 vertColor;
+out vec2 uv;
 
 void main()
 {
@@ -65,5 +66,13 @@ void main()
     }
 
     vertColor = vec4(illumination, 1) * color;
+
+    // Project the vertex onto a unit sphere
+    vec3 spherePosition = normalize(position);
+
+    // Compute the spherical uv coordinate 
+    uv.x = 0.5 + atan(spherePosition.x, spherePosition.z) / (2.0 * 3.1415);
+    uv.y = 0.5 + asin(spherePosition.y) / 3.1415;
+
     gl_Position = projectionMatrix * viewMatrix * vec4(worldPosition, 1);
 }
