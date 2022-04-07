@@ -1,4 +1,4 @@
-# Lecture 21: Shading with Textures
+# Lecture 21: Advanced Shading
 
 Detailed explanation of this code can be found in the lecture video.
 
